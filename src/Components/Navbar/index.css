@@ -1,0 +1,48 @@
+.logo{
+    color: floralwhite;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    margin: 10px;
+}
+.links-style{
+    text-decoration: none;
+    display: flex;
+}
+
+.nav-bg{
+    background-color: #0d0d0d;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+.logo-style{
+    background-color: transparent;
+    border: 1px solid greenyellow;
+    padding-left: 15px;
+    padding-right: 10px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.about-text{
+    font-weight: 700;
+    color: floralwhite;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.nav-links-alignment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+.cart-count{
+    background-color: greenyellow;
+    font-weight: 700;
+    border-radius: 50%;
+    width: 20px;
+    font-size: 18px;
+}

@@ -1,0 +1,23 @@
+.about-container{
+    background-color: #262626;
+    background-size: cover;
+    height: 100vh;
+}
+.About-text{
+    color: greenyellow;
+    font-weight: 700;
+}
+.about-description{
+    color: #999999;
+    font-size: 20px;
+    margin-bottom: 430px;
+}
+.card-footer1{
+    color: #999999;
+    
+}
+
+.footer-text{
+    font-size: 20px;
+    font-weight: 700;
+}

@@ -1,0 +1,40 @@
+.card-container{
+    width: 23%;
+    height: 500px;
+    background-color: #000000;
+    margin: 10px;
+    border-radius: 15px;
+    
+}
+.thumbnail{
+    width: 100%;
+    height: 300px;
+}
+.author-name{
+    color: #ffffff;
+}
+.link-style{
+    text-decoration: none;
+}
+.book-title{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.price{
+    color: blue;
+}
+.rating{
+    color:#ffffff ;
+
+}
+.details-btns{
+    color: greenyellow;
+    border: 1px solid greenyellow;
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    margin: 10px;
+}

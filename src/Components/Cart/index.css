@@ -1,0 +1,11 @@
+.cart-container2{
+    background-color:#262626 ;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    font-size: 30px;
+}
+
+.cart-card1{
+    border-radius: 15px;
+}

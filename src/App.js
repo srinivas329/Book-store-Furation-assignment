@@ -1,24 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from "react";
+
+import "./App.css";
+import { Route, Switch, BrowserRouter } from "react-router-dom";
+import { Provider } from "./context/Context";
+import Navbar from './Components/Navbar'
+import Header from './Components/Header'
+import Books from './Components/Books'
+import About from "./Components/About";
+import Cart from './Components/Cart'
+import BookDetails from './Components/BookDetails'
+import LoginPage from "./Components/LoginPage";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+    <Provider>
+      <div className="App bg-container">
+      <Navbar />
+        <Switch>
+          <Route exact path="/Login" component={LoginPage}/>
+          
+          <Route exact path="/" render={() => (
+              <>
+                <Header />
+                <Books />
+              </>
+            )}
+          />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/book-cart" component={Cart} />
+          <Route exact path="/book/details/:id" component={BookDetails} />
+        </Switch>
+      </div>
+    </Provider>
+    </BrowserRouter>
+    
   );
 }
 

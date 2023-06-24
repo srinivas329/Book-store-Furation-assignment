@@ -1,0 +1,24 @@
+.check-out-table{
+    width: 600px;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: 20px;
+}
+.back-to-shop-btn{
+    background-color: transparent;
+    border: 1px solid greenyellow;
+    width: 150px;
+    height: 35px;
+    color: greenyellow;
+    border-radius: 10px;
+}
+.check-out-description{
+    color: #999999;
+}
